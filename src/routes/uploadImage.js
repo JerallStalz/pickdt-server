@@ -15,7 +15,7 @@ router.post("/upload", uploader.single("file"), async (req, res) => {
         const newImage = new Image({
             fileName: file.filename,
             content: req.body.content,
-            urlFile: `http://${server.URL}/${file.filename}`
+            urlFile: `https://${server.URL}/${file.filename}`
         });
         await newImage.save();
         res.send({

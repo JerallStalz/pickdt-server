@@ -3,6 +3,6 @@ module.exports = {
         URI: "mongodb://uixb1nksqcg5g3bysoyo:KWevum43zILu99yGpzS5@b9168ujif9f2xqz-mongodb.services.clever-cloud.com:27017/b9168ujif9f2xqz"
     },
     server: {
-        URL: "pickdt.herokuapp.com"
+        URL: "dandy-jungle-room.glitch.me"
     }
 }
